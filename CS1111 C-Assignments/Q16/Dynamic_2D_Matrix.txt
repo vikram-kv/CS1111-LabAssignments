@@ -1,0 +1,49 @@
+Program's Goal:
+To use calloc() and malloc() to create dynamic 2D arrays(stored in ROW major form) and print out the contents of the 2D array in the 
+standard form on terminal.
+
+
+Instructions for compilation:-
+1.Use GCC compiler with std=c11 and run the .out file generated
+2.Asks the user for dimensions of the 2D array he wants to enter, obtains the array and prints it out in its standard representation
+
+Sample Input and Output:-
+A.
+Enter 'C' for calloc and 'M' for malloc:C
+Enter the dimensions of the array m and n:2
+2
+Enter Matrix[1][1]:1
+Enter Matrix[1][2]:2
+Enter Matrix[2][1]:3
+Enter Matrix[2][2]:4
+
+The matrix is:
+1       2
+3       4
+B.
+Enter 'C' for calloc and 'M' for malloc:M
+Enter the dimensions of the array m and n:2 1
+Enter Matrix[1][1]:5
+Enter Matrix[2][1]:2
+
+The matrix is:
+5
+2
+
+C.
+Enter 'C' for calloc and 'M' for malloc:C
+Enter the dimensions of the array m and n:3 3
+Enter Matrix[1][1]:1
+Enter Matrix[1][2]:2
+Enter Matrix[1][3]:3
+Enter Matrix[2][1]:4
+Enter Matrix[2][2]:5
+Enter Matrix[2][3]:6
+Enter Matrix[3][1]:7
+Enter Matrix[3][2]:8
+Enter Matrix[3][3]:9
+
+The matrix is:
+1       2       3
+4       5       6
+7       8       9

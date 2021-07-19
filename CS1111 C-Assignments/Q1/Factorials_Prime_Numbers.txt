@@ -1,0 +1,16 @@
+Program's Aim:
+1.To find the factorial of a number and the smallest prime larger than a number
+2.Input consists of a string of characters(f or p) and positive integers.
+
+Instructions for compilation:-
+1.Compile using gcc compiler with std=c11 and run the .out file generated.
+2.Presence of Input File FPinput.txt is required.
+
+Set Of Sample Inputs:-(stored in FPinput.txt)
+A.f 5 f 4 p 3 f 2 p 6
+B.f 4 p 100 f 6 p 1
+C.f 2 f 1 p 7
+Corresponding Sample Outputs:-(stored in FPinput.txt)
+A.f	5	120	f	4	24	p	3	5	f	2	2	p	6	7	
+B.f	4	24	p	100	101	f	6	720	p	1	2	
+C.f	2	2	f	1	1	p	7	11

@@ -1,0 +1,106 @@
+Program's Goal:-
+	To find the frequencies of alphabets(case insensitive) in a string entered by the user through the keyboard.
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file obtained.
+2.Input and output is from and on terminal.
+
+Sample Inputs with Outputs:-
+A.
+Enter an input terminated by a ~:xjhibhevbiyfgrnfmcw6527585#^^$^#$~
+
+You have entered :
+xjhibhevbiyfgrnfmcw6527585#^^$^#$
+
+ The frequency of A/a is:0
+ The frequency of B/b is:2
+ The frequency of C/c is:1
+ The frequency of D/d is:0
+ The frequency of E/e is:1
+ The frequency of F/f is:2
+ The frequency of G/g is:1
+ The frequency of H/h is:2
+ The frequency of I/i is:2
+ The frequency of J/j is:1
+ The frequency of K/k is:0
+ The frequency of L/l is:0
+ The frequency of M/m is:1
+ The frequency of N/n is:1
+ The frequency of O/o is:0
+ The frequency of P/p is:0
+ The frequency of Q/q is:0
+ The frequency of R/r is:1
+ The frequency of S/s is:0
+ The frequency of T/t is:0
+ The frequency of U/u is:0
+ The frequency of V/v is:1
+ The frequency of W/w is:1
+ The frequency of X/x is:1
+ The frequency of Y/y is:1
+ The frequency of Z/z is:0
+
+B.
+Enter an input terminated by a ~:bhbfvgfvb635375~
+
+You have entered :
+bhbfvgfvb635375
+
+ The frequency of A/a is:0
+ The frequency of B/b is:3
+ The frequency of C/c is:0
+ The frequency of D/d is:0
+ The frequency of E/e is:0
+ The frequency of F/f is:2
+ The frequency of G/g is:1
+ The frequency of H/h is:1
+ The frequency of I/i is:0
+ The frequency of J/j is:0
+ The frequency of K/k is:0
+ The frequency of L/l is:0
+ The frequency of M/m is:0
+ The frequency of N/n is:0
+ The frequency of O/o is:0
+ The frequency of P/p is:0
+ The frequency of Q/q is:0
+ The frequency of R/r is:0
+ The frequency of S/s is:0
+ The frequency of T/t is:0
+ The frequency of U/u is:0
+ The frequency of V/v is:2
+ The frequency of W/w is:0
+ The frequency of X/x is:0
+ The frequency of Y/y is:0
+ The frequency of Z/z is:0
+
+C.
+Enter an input terminated by a ~:32453#$$#~
+
+You have entered :
+32453#$$#
+
+ The frequency of A/a is:0
+ The frequency of B/b is:0
+ The frequency of C/c is:0
+ The frequency of D/d is:0
+ The frequency of E/e is:0
+ The frequency of F/f is:0
+ The frequency of G/g is:0
+ The frequency of H/h is:0
+ The frequency of I/i is:0
+ The frequency of J/j is:0
+ The frequency of K/k is:0
+ The frequency of L/l is:0
+ The frequency of M/m is:0
+ The frequency of N/n is:0
+ The frequency of O/o is:0
+ The frequency of P/p is:0
+ The frequency of Q/q is:0
+ The frequency of R/r is:0
+ The frequency of S/s is:0
+ The frequency of T/t is:0
+ The frequency of U/u is:0
+ The frequency of V/v is:0
+ The frequency of W/w is:0
+ The frequency of X/x is:0
+ The frequency of Y/y is:0
+ The frequency of Z/z is:0

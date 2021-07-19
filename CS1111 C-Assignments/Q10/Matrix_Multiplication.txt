@@ -1,0 +1,48 @@
+Program's Goal:
+To perform Matrix Multiplication , when it is possible, of  two matrices and store them in a file.
+
+Instructions for compilation:-
+1.Compile using GCC compiler with std=c11 and execute the .out file obtained.
+2.Output is printed in product.txt if it exists
+3.User is required to enter the dimensions of two floating point matrices and assign the elements of the matrices valid values.
+
+Sample Input(from terminal) and corresponding output:-
+
+
+A.
+Input:
+Enter the number of rows and number of columns for the first matrix in that order(MAX 100):2 2
+Enter MATRIX 1[0][0]:1
+Enter MATRIX 1[0][1]:2
+Enter MATRIX 1[1][0]:3
+Enter MATRIX 1[1][1]:4
+Enter the number of rows and number of columns for the second matrix in that order(MAX 100):2 2
+Enter MATRIX 2[0][0]:1
+Enter MATRIX 2[0][1]:2
+Enter MATRIX 2[1][0]:3
+Enter MATRIX 2[1][1]:4
+Output:(in product.txt)
+1.00	2.00	X	1.00	2.00	=	7.00	10.00	
+3.00	4.00		3.00	4.00		15.00	22.00
+
+	
+B.
+Illegal Input:
+Enter the number of rows and number of columns for the first matrix in that order(MAX 100):2 2
+Enter MATRIX 1[0][0]:g
+You have not entered a valid floating point array.Quitting
+
+
+C.
+Input:
+Enter the number of rows and number of columns for the first matrix in that order(MAX 100):2 2
+Enter MATRIX 1[0][0]:1
+Enter MATRIX 1[0][1]:2
+Enter MATRIX 1[1][0]:1
+Enter MATRIX 1[1][1]:3
+Enter the number of rows and number of columns for the second matrix in that order(MAX 100):1 2
+Enter MATRIX 2[0][0]:1
+Enter MATRIX 2[0][1]:2
+Output:(in terminal)
+Can't Multiply.
+[product.txt is not created]

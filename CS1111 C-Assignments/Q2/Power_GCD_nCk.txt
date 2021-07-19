@@ -1,0 +1,19 @@
+Program's Goal:-
+1.To compute x raised to the power of y through efficiently by storing values, where x and y are natural numbers.
+2.To compute GCD of two natural numbers by recursive function call.
+3.To compute nCk for natural numbers n and k efficiently by storing the requisite values in a pascal's triangle.
+
+Instructions for compilation:-
+1.Compile using gcc std c11 and run the .out file generated.
+2.Presence of Input File pgb.txt is required.
+3.Initially, pgb.txt contains a stream of characters and integers as shown below in the set of sample inputs.
+
+Set Of Sample Inputs:-(stored in pgb.txt)
+A.p 2 3 g 4 28 g 99 363 b 10 5
+B.p 4 5 g 34 13 b 5 3 p 5 2
+C.p 3 6 g 56 784 p 9 4 b 6 3
+
+Corresponding Sample Outputs:-(stored in pgb.txt)
+A.p 2 3 8 g 4 28 4 g 99 363 33 b 10 5 252 	
+B.p 4 5 1024 g 34 13 1 b 5 3 10 p 5 2 25 	
+C.p 3 6 729 g 56 784 56 p 9 4 6561 b 6 3 20 

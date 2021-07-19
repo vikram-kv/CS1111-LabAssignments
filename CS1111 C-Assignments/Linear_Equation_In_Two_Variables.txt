@@ -1,0 +1,26 @@
+Program's Goal:-
+	To print out the solutions of a pair of linear equations in two variables.
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file.
+2.Input and output is from and on the terminal.
+
+Sample Input and Output:-
+
+A.
+Enter the values of a,b,c for the 1th linear equation(of the form ax+by=c):2 3 5
+Enter the values of a,b,c for the 2th linear equation(of the form ax+by=c):3 2 4
+
+        The only solution is x=0.4000 and y=1.4000
+
+B.
+Enter the values of a,b,c for the 1th linear equation(of the form ax+by=c):2.0 4.0 6.0
+Enter the values of a,b,c for the 2th linear equation(of the form ax+by=c):3.0 6.0 9.5
+
+        You have no solutions.
+
+C.
+Enter the values of a,b,c for the 1th linear equation(of the form ax+by=c):4 5 10
+Enter the values of a,b,c for the 2th linear equation(of the form ax+by=c):2 2.5 5
+
+        You have infinitely many solutions. A few of which are x=1.0000,y=1.2000 and x=2.0000,y=0.4000

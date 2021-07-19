@@ -1,0 +1,41 @@
+Program's Goal:
+To be able to determine which strings are palindromes in a set of strings stored in a file by using static character arrays as strings
+To achieve the same goal by creating a linked list of strings through dynamic memory allocation
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file obtained 
+2.Input is obtained from palindrome.txt which must be in the same directory as the .out file
+3.palindrome.txt contains text delimited by \n.
+
+Sample Input and Output:
+Input:(in palindrome.txt)
+Mom
+112211
+cpp
+cs11sc
+abcdthght
+python
+java
+c program
+c do od c
+Output:(On terminal)
+STATIC IMPLEMENTATION:
+Mom     YES
+112211  YES
+cpp     NO
+cs11sc  YES
+abcdthght       NO
+python  NO
+java    NO
+c program       NO
+c do od c       YES
+DYNAMIC IMPLEMENTATION:
+Mom     YES
+112211  YES
+cpp     NO
+cs11sc  YES
+abcdthght       NO
+python  NO
+java    NO
+c program       NO
+c do od c       YES

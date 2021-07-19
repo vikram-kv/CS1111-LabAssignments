@@ -1,0 +1,103 @@
+Program's Goal:
+To solve the Towers of Hanoi Problem and print out the list of moves in a file.
+
+Compilation Instruction:
+1.Compile using gcc compiler with std=c11 and execute the .out file
+2.Requires a non-negative integer as input which represents the number of disks to be moved in total.
+3.Generates a .txt file named toh_output.txt which contains the output.
+
+Set of Sample Inputs:-
+Enter the total number of disks:
+A.4
+B.6
+C.3
+
+Corresponding Sample Outputs:-(in toh_output.txt)
+A.
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+Disk 3: A to B
+Disk 1: C to A
+Disk 2: C to B
+Disk 1: A to B
+Disk 4: A to C
+Disk 1: B to C
+Disk 2: B to A
+Disk 1: C to A
+Disk 3: B to C
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+B.
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+Disk 3: A to B
+Disk 1: C to A
+Disk 2: C to B
+Disk 1: A to B
+Disk 4: A to C
+Disk 1: B to C
+Disk 2: B to A
+Disk 1: C to A
+Disk 3: B to C
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+Disk 5: A to B
+Disk 1: C to A
+Disk 2: C to B
+Disk 1: A to B
+Disk 3: C to A
+Disk 1: B to C
+Disk 2: B to A
+Disk 1: C to A
+Disk 4: C to B
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+Disk 3: A to B
+Disk 1: C to A
+Disk 2: C to B
+Disk 1: A to B
+Disk 6: A to C
+Disk 1: B to C
+Disk 2: B to A
+Disk 1: C to A
+Disk 3: B to C
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+Disk 4: B to A
+Disk 1: C to A
+Disk 2: C to B
+Disk 1: A to B
+Disk 3: C to A
+Disk 1: B to C
+Disk 2: B to A
+Disk 1: C to A
+Disk 5: B to C
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+Disk 3: A to B
+Disk 1: C to A
+Disk 2: C to B
+Disk 1: A to B
+Disk 4: A to C
+Disk 1: B to C
+Disk 2: B to A
+Disk 1: C to A
+Disk 3: B to C
+Disk 1: A to B
+Disk 2: A to C
+Disk 1: B to C
+C.
+Disk 1: A to C
+Disk 2: A to B
+Disk 1: C to B
+Disk 3: A to C
+Disk 1: B to A
+Disk 2: B to C
+Disk 1: A to C

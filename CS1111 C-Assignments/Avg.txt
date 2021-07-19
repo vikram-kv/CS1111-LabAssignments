@@ -1,0 +1,35 @@
+Program's Goal:-
+	To compute the average of a few selected continguous integers of an integer array through iteration and recursion.
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file obtained.
+2.Input and output is from and on terminal.
+
+Sample Input and Output:-
+
+A.
+Enter the number of elements in the array:5
+1 2 3 4 5
+
+ Enter the value of the starting position and ending position in that order:1 5
+
+The average of the selected elements in the array is(calculated through iteration):3.000000
+The average of the selected elements in the array is(calculated through recursion):3.000000
+
+B.
+Enter the number of elements in the array:4
+4 2 6 8
+
+ Enter the value of the starting position and ending position in that order:2 3
+
+The average of the selected elements in the array is(calculated through iteration):4.000000
+The average of the selected elements in the array is(calculated through recursion):4.000000
+
+C.
+Enter the number of elements in the array:10
+1 4 2 5 6 3 7 5 8 9
+
+ Enter the value of the starting position and ending position in that order:2 7
+
+The average of the selected elements in the array is(calculated through iteration):4.500000
+The average of the selected elements in the array is(calculated through recursion):4.500000

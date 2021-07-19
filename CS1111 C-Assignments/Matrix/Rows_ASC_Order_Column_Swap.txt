@@ -1,0 +1,75 @@
+Program's Goal:
+To determine whether the columns of a given Matrix can be rearranged in a way such that all its rows have their elements in ascending order.
+The program is solved by recursive function call.
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file
+2.Input and output are from the terminal and on teh terminal respectively.
+3.Requests the user to enter a 2D matrix.
+4.Prints the output for that 2D Matrix.
+
+Sample Input and Output:-
+
+
+A.
+Enter the dimensions of the matrix for which you want to know whether the columns can be rearranged in such a way that all the elements in any row are in ascending order:
+3 3
+Enter M[0][0]:1
+Enter M[0][1]:0
+Enter M[0][2]:0
+Enter M[1][0]:1
+Enter M[1][1]:1
+Enter M[1][2]:0
+Enter M[2][0]:2
+Enter M[2][1]:1
+Enter M[2][2]:1
+1       0       0
+1       1       0
+2       1       1
+
+The Input Matrix can , through column swapping ,be rearranged to a new matrix where elements in any given row are in ascending order.
+The rearranged form is:
+0       0       1
+0       1       1
+1       1       2
+
+
+B.
+Enter the dimensions of the matrix for which you want to know whether the columns can be rearranged in such a way that all the elements in any row are in ascending order:
+3 3
+Enter M[0][0]:1
+Enter M[0][1]:2
+Enter M[0][2]:3
+Enter M[1][0]:6
+Enter M[1][1]:5
+Enter M[1][2]:4
+Enter M[2][0]:2
+Enter M[2][1]:2
+Enter M[2][2]:2
+1       2       3
+6       5       4
+2       2       2
+
+ The input Matrix is not re-arrangeable.
+
+C.
+Enter the dimensions of the matrix for which you want to know whether the columns can be rearranged in such a way that all the elements in any row are in ascending order:
+3 3
+Enter M[0][0]:5
+Enter M[0][1]:5
+Enter M[0][2]:6
+Enter M[1][0]:8
+Enter M[1][1]:7
+Enter M[1][2]:10
+Enter M[2][0]:12
+Enter M[2][1]:11
+Enter M[2][2]:15
+5       5       6
+8       7       10
+12      11      15
+
+The Input Matrix can , through column swapping ,be rearranged to a new matrix where elements in any given row are in ascending order.
+The rearranged form is:
+5       5       6
+7       8       10
+11      12      15

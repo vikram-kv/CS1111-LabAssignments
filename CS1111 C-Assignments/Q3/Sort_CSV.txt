@@ -1,0 +1,17 @@
+Program's goal:-
+To sort an array of integers and store them in comma separated file.
+
+Instructions for compilation:-
+1.Compile using gcc std c11 and run the .out file generated.
+2.Presence of Input File sort_num.csv is required.
+3.Initially, sort_num.csv contains a stream of positive integers delimited by a comma.
+
+Set Of Sample Inputs:-(stored in sort_num.csv)
+A.9,7,10,5,4,6,2
+B.5,4,3,2,1
+C.7,8,5,6,9,10,2
+
+Corresponding Sample Outputs:-(stored in sort_num.csv)
+A.2,4,5,6,7,9,10 	
+B.1,2,3,4,5	
+C.2,5,6,7,8,9,10

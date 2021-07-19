@@ -1,0 +1,43 @@
+Program's Goal:
+To compute the rank and determinant of a square matrix through Gaussian Elimination for a transformation to Row Echelon form.
+
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file.
+2.All input and output will be from and made on the terminal.
+3.User is required to input the dimension first and then , a floating point matrix of that dimension
+
+Sample Input and Output:-
+
+A.
+Enter the dimension of the square matrix:3
+Enter the Matrix:
+1.0 2.0 3.0
+4.0 5.0 6.0
+7.0 8.0 9.0
+The determinant of the given matrix is:-0.00
+The rank of the given matrix is:2
+
+B.
+Enter the dimension of the square matrix:3
+Enter the Matrix:
+0.0 0.0 0.0
+1.0 2.0 3.0
+4.0 2.0 3.0
+The determinant of the given matrix is:-0.00
+The rank of the given matrix is:2
+
+C.
+Enter the dimension of the square matrix:1
+Enter the Matrix:
+2.0
+The determinant of the given matrix is:+2.00
+The rank of the given matrix is:1
+
+D.
+Enter the dimension of the square matrix:2
+Enter the Matrix:
+1.0 2.0
+3.0 4.0
+The determinant of the given matrix is:-2.00
+The rank of the given matrix is:2

@@ -1,0 +1,43 @@
+Program's Goal:
+To read the data of a set of students from a file , create a linked list dynamically and print out the contents on terminal
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file generated
+2.Input is taken from data.txt which must be in the same directory as the .out file
+3.Fields of the same student are delimited by a horizontal tab and different students' records are delimited by a newline.
+
+Sample Input and Output:-
+
+Input(from data.txt):
+ABCD	cauvery	1
+BCDE	ganga	2
+CDEF	cauvery	3
+DEFG	yamuna	4
+EFGH	alaknanda	5
+FGHI	narmada	6
+GHIJ	narmada	7
+HIJK	tapti	8
+IJKL	tunga	9
+JKLM	brahmaputra	10
+KLMN	sarayu	11
+LMNO	sharavati	12	
+MNOP	godavari	13
+NOPQ	cauvery	14
+OPQR	saraswati	15
+	
+Output(on terminal):
+ABCD    cauvery 1
+BCDE    ganga   2
+CDEF    cauvery 3
+DEFG    yamuna  4
+EFGH    alaknanda       5
+FGHI    narmada 6
+GHIJ    narmada 7
+HIJK    tapti   8
+IJKL    tunga   9
+JKLM    brahmaputra     10
+KLMN    sarayu  11
+LMNO    sharavati       12
+MNOP    godavari        13
+NOPQ    cauvery 14
+OPQR    saraswati       15

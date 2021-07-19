@@ -1,0 +1,30 @@
+Program's Goal:
+	To swap two integers in two ways.
+		i) Using a temporary third variable.
+		ii)Without using a third variable.
+
+Instructions for compilation:-
+1.Compile using the GCC compiler with std=c11 and run the .out file obtained.
+2.Input and output is from and on terminal.
+
+Sample Inputs with Outputs:-
+A.
+Enter two integers separated by a space:5 -2
+
+Before swap,number 1=5,number 2=-2
+After swap using a temporary variable,number 1=-2,number 2=5
+After swap without a temporary variable,number 1=-2,number 2=5
+
+B.
+Enter two integers separated by a space:1 0
+
+Before swap,number 1=1,number 2=0
+After swap using a temporary variable,number 1=0,number 2=1
+After swap without a temporary variable,number 1=0,number 2=1
+
+C.
+Enter two integers separated by a space:4 7
+
+Before swap,number 1=4,number 2=7
+After swap using a temporary variable,number 1=7,number 2=4
+After swap without a temporary variable,number 1=7,number 2=4

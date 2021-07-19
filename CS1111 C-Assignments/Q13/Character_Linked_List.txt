@@ -1,0 +1,16 @@
+Program's Goal:
+To print out the contents of a text file by creating a linked list of characters dynamically.
+
+Instructions for compilation:-
+1.Compile using the gcc compiler with std=c11 and execute the .out file obtained
+2.The contents of a file named sentence.txt in the same directory as this .out file is printed on the terminal
+
+Sample Input:-(from sentence.txt)
+A.Hi there, What's up?
+B.QWERTYUIOPASDFGHJKLZXCVBNM
+C.!@#$%^&*()
+
+Corresponding Sample Outputs:-(on terminal)
+A.Hi there, What's up?
+B.QWERTYUIOPASDFGHJKLZXCVBNM
+C.!@#$%^&*()

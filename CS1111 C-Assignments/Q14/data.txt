@@ -1,0 +1,15 @@
+ABCD	cauvery	1
+BCDE	ganga	2
+CDEF	cauvery	3
+DEFG	yamuna	4
+EFGH	alaknanda	5
+FGHI	narmada	6
+GHIJ	narmada	7
+HIJK	tapti	8
+IJKL	tunga	9
+JKLM	brahmaputra	10
+KLMN	sarayu	11
+LMNO	sharavati	12	
+MNOP	godavari	13
+NOPQ	cauvery	14
+OPQR	saraswati	15	

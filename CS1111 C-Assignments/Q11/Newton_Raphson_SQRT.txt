@@ -1,0 +1,40 @@
+Program's Goal:
+To find the square root of a decimal number by using the Newton-Raphson Method.
+
+Instructions for compilation:-
+1.Use GCC compiler with std=c11 and execute the .out file obtained
+2.roots.txt contains only positive floating point numbers delimited by a newline.
+3.Output is printed in the same file.
+
+Sample Input and correponding outputs:-
+A.
+Input:
+1.0
+2.0
+3.0
+4.0
+Output:
+   1.000	   1.000
+   2.000	   1.414
+   3.000	   1.732
+   4.000	   2.000
+B.
+Input:
+121.0
+144.0
+220.0
+225.0
+Output:
+ 121.000	  11.000
+ 144.000	  12.000
+ 220.000	  14.832
+ 225.000	  15.000
+C.
+Input:
+0.0
+25.0
+45.0
+Output:
+   0.000	   0.000
+  25.000	   5.000
+  45.000	   6.708

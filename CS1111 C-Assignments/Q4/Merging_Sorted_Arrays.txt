@@ -1,0 +1,22 @@
+Program's Goal:
+To be able to merge two sorted arrays into a single sorted array which is the basis of the MergeSort Sorting Algorithm.
+
+Instructions for compilation:-
+1.Compile using gcc std c11 and run the .out file generated.
+2.Presence of Input Files sort_num1.csv and sort_num2.csv is required.
+3.Initially, both sort_num1.csv and sort_num2.csv contain a stream of positive integers arranged in ascending order delimited by a comma.
+
+Set Of Sample Inputs:-(stored in sort_num1.csv)			
+A.6,8,10
+B.3,5
+C.11,12
+
+Corresponding Sample Inputs:-(stored in sort_num2.csv)
+A.1,7
+B.1,2,4
+C.10,13,15
+
+Corresponding Sample Outputs:-(stored in result.csv)
+A.1,6,7,8,10
+B.1,2,3,4,5	
+C.10,11,12,13,15
